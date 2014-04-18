@@ -3,3 +3,5 @@ if ! shopt -q login_shell || [[ -n "$SSH_CLIENT" ]] ; then
   elif  [[ -f "/etc/bash/bashrc" ]]   ; then . /etc/bash/bashrc
   fi
 fi
+
+. $HOME/.bash_aliases
