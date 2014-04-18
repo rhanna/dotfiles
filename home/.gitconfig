@@ -1,12 +1,13 @@
 [user]
-  name = Fletcher Nichol
-  email = fnichol@nichol.ca
+  name = Robert Hanna
+  email = rhanna@rhanna.com
 
 [status]
   relativePaths = false
 
 [alias]
   aliases = !git config --get-regexp alias | sed -e 's/^alias\\.\\(.*\\)$/\\1/' -e 's/^\\([^ ]\\{1,\\}\\) \\(.*\\)$/\\1 = \\2/'
+  st = status
   cl = clone
   co = checkout
   wd = diff --word-diff
